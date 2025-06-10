@@ -1,0 +1,15 @@
+# Archivo: .gitignore
+
+config.php
+
+# Ignorar dependencias de Composer
+/vendor/
+composer.lock
+
+# Ignorar logs y archivos temporales
+*.log
+*.tmp
+
+# Ignorar archivos de configuración de editores
+.idea/
+.vscode/
